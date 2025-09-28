@@ -1,16 +1,6 @@
-Does your language have keywords or reserved words? How many?
-What are the naming requirements for variables in your language? 
-What about naming conventions?  Are those enforced by the compiler/interpreter, or just standards in the community?
-
-Is your language statically or dynamically typed?
-Strongly typed or weakly typed?
-Are some variables mutable while others are immutable? 
-What are the operators available for each data type?
-Are mixed type operations allowed? If so, how are they accommodated?
-At what point are identifier names and operator symbols bound in your language? For example if you declare a (variable, class name, function name), when is it bound to the type, address? When are operators (+,*, etc.) bound to their operations?
-Explicitly typed or implicitly typed? 
-
+------------------------
 ---> RESERVED WORDS <---
+------------------------
 C++ has an extensive list of key/reserved words
 A reserved word is a word that you can not use as a variable name or else it will
 mess with the use that is already associtated with the word in a given language.
@@ -20,8 +10,10 @@ if, else, return, include, string, bool, int, float etc.
 
 (for a full list of reserved words see here: https://en.cppreference.com/w/cpp/keyword.html)
 
---> NAME REQUIREMENTS <--
 
+-------------------------------------
+--> NAME REQUIREMENTS/CONVENTIONS <--
+-------------------------------------
 Classes:
 - Pascal Case (PascalCaseIsLikeThis) <- classes must start with an upper case letter
 - class name should be a noun
@@ -36,3 +28,14 @@ Variables:
 - No keywords
 - "_" is the only allowed special character
 
+(for more in depth see here: https://www.geeksforgeeks.org/cpp/naming-convention-in-c)
+
+
+Some more useful information to know:
+
+C++ is a statically typed language which means that type checking
+happens when the program is compiled instead of at run time. It is
+also a strongly typed language (even though some people think that
+it is weakly typed). It is explicitly typed (though you can implicitly
+declare using auto), in C++ you need to declare what type of variable
+you are declaring and it will always stay as that variable type.
