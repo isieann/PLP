@@ -1,5 +1,3 @@
-Discussion questions:
-
 Does your language have keywords or reserved words? How many?
 What are the naming requirements for variables in your language? 
 What about naming conventions?  Are those enforced by the compiler/interpreter, or just standards in the community?
@@ -11,3 +9,30 @@ What are the operators available for each data type?
 Are mixed type operations allowed? If so, how are they accommodated?
 At what point are identifier names and operator symbols bound in your language? For example if you declare a (variable, class name, function name), when is it bound to the type, address? When are operators (+,*, etc.) bound to their operations?
 Explicitly typed or implicitly typed? 
+
+---> RESERVED WORDS <---
+C++ has an extensive list of key/reserved words
+A reserved word is a word that you can not use as a variable name or else it will
+mess with the use that is already associtated with the word in a given language.
+
+Some more common reserved words in C++ include:
+if, else, return, include, string, bool, int, float etc.
+
+(for a full list of reserved words see here: https://en.cppreference.com/w/cpp/keyword.html)
+
+--> NAME REQUIREMENTS <--
+
+Classes:
+- Pascal Case (PascalCaseIsLikeThis) <- classes must start with an upper case letter
+- class name should be a noun
+- "_"s aren't allowed in class naming
+
+Functions/Methods:
+- Camel Case (camelCaseIsLikeThis) <- functions/methods must start with a lower case letter
+- For methods specifically Snake Case can also be used (snake_case_is_like_this)
+
+Variables:
+- The first character should be a letter (numbers are allowed but only after at least one letter)
+- No keywords
+- "_" is the only allowed special character
+
