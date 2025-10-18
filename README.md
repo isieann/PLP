@@ -339,13 +339,20 @@ int y = 2
 if(y = 2){
     cout << "Two";
 }
+else{
+    cout << "Not Two";
 ```
 ### Multi Condition
 ```cpp
-int y = 2
-if(y = 2){
-    cout << "Two";
+int y = 5
+bool size;
+if(y > 2 && y < 8){
+    size = true;
+}
+else{
+    size = false;
 }
 ```
-## Short Circuiting
+### Else if
+### Short Circuiting
 ##Switch Cases
