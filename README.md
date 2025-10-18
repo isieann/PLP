@@ -20,6 +20,12 @@ This is a Project for my Programming Languages class. It's purpose is to act as 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Constant/Auto](#constant-and-auto)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Reserved Words](#reserved-words)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Name Requirements/Conventions](#name-requirements-and-conventions)</sup>
+
+[Selection, Loops, and Conditionals](#selection-lopos-and-conditionals)<br>
+<sup>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[If/Else](#if-else)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Switch Cases](#switch-cases)<br>
+</sup>
 # Getting Started
 ## Install VSCode
 [Visual Studio Code Download](https://code.visualstudio.com/download)
