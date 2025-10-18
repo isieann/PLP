@@ -1,7 +1,7 @@
 # PLP
 This is a Project for my Programming Languages class. It's purpose is to act as a tutorial for C++.
 
-[Getting Started](#getting-started)<br>[History](#history)
+[Getting Started](#getting-started)<br>[History](#history)<br>[Hello World!](#hello-world!)
 
 # GETTING STARTED
 
