@@ -1,9 +1,24 @@
 # PLP
 This is a Project for my Programming Languages class. It's purpose is to act as a tutorial for C++.
 
-[Getting Started](#getting-started)<br>[History](#history)<br>[Hello World!](#hello-world)
+# Table of Contents<br>
+[Getting Started](#getting-started)<br><br>[History](#history)<br><br>
+[Hello World!](#hello-world)<br>
+<sup>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Comments](#comments)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Include](#include)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Hello World!](#lets-get-started)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Namespace](#namespaces)<br></sub>
 
-# GETTING STARTED
+[Variables](#declaring-variables)<br>
+<sup>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Numbers](#numbers)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Strings/Chars](#strings-and-chars)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Booleans](#booleans)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Arrays](#arrays)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Maps](#maps)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Constant/Auto](#constant-and-auto)</sup>
+# Getting Started
 
 ## Install VSCode
 [Visual Studio Code Download](https://code.visualstudio.com/download)
@@ -54,7 +69,6 @@ I am specifically interested in C++'s application in game development. It is the
 in Unreal engine which is one of the leading softwares for 3D game development.
 
 # Hello World!
-## PLP 1
 [W3Schools](https://www.w3schools.com/cpp)<br>
 [Learn C++](https://www.learncpp.com/)
 
@@ -179,3 +193,95 @@ int main() {
             return 0;      
         }
 ```
+# Declaring Variables
+[GeeksForGeeks](https://www.geeksforgeeks.org/cpp/how-to-create-a-dictionary-in-cpp)
+[W3Schools](https://www.w3schools.com/cpp/cpp_variables.asp)
+C++ is an explicit language, this means that you have to declar your variables as a type, and further (like in Java, C#, etc.) those variables will stay like that forever.
+## Numbers
+```cpp
+int x = 3;
+```
+```cpp
+float f = 12.3;
+```
+```cpp
+double d = 14.557882374822938462893478392834782394;
+```
+
+
+## Strings and Chars
+```cpp
+char c = 'a';
+```
+```cpp
+string s = "Hello World!";
+```
+>[!NOTE]
+>Chars must use single quotes '' and strings must use double quotes ""
+>
+## Booleans
+```cpp
+bool t = true;
+```
+```cpp
+bool f = false;
+```
+>[!NOTE]
+>In C++ true and false are always written in all lowercase
+
+## Arrays
+Arrays work by declaring the type of varibles that will be in it `string` followed by the name of the array `names` and then names is directly followed by square brackets that contain the length of the array `[3]`.
+```cpp
+string names[3] = {"Bella", "Luke", "Lee"};
+int numbers[7] = {3,7,8,7,6,54,9};
+```
+This is how you would print a specific part of the list,`cout <<` is how you output but the important part here is the `names[2]` it will output `"Bella"`.
+```cpp
+cout << names[0];
+```
+This will change whats in position 0 of
+names.
+```cpp
+names[0] = "Izzy";
+```
+```cpp
+cout << names[0];
+```
+If we were to output now it would be `"Izzy"`
+
+
+
+## Maps
+```cpp
+#include <map>
+myMap[1] = "map1";
+myMap[2] = "map2";
+myMap[3] = "map3";
+```
+>[!NOTE]
+> You must `#include <map>` or it won't work!
+
+```cpp
+for (auto part : myMap)
+    cout << part.first << ": " << part.second << endl;
+```
+This will print the elements of the map out in order by key as `1: map1` etc.
+    
+There are also unordered maps which will not have the parts in order and it can be created the same way but map will be replaced with `unordered_map`.
+
+
+# Constant and Auto
+When you add `const` to a variable declaration it can not be changed anywhere later in the program any attempts TO change it will result in an error.
+```cpp
+const int y = 19;
+int y = 20; //<- this would result in an error!
+```
+```cpp
+const string foreverString = "Never Changing!!";
+```
+
+`auto` works like var in C# where it will determine what the variable type is for you instead of you specifying it, but it still can't bee changed later.
+```cpp
+auto a = 7;
+```
+
