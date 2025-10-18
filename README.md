@@ -21,8 +21,6 @@ This is a Project for my Programming Languages class. It's purpose is to act as 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Reserved Words](#reserved-words)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Name Requirements/Conventions](#name-requirements-and-conventions)</sup>
 # Getting Started
-
-Name Requirements and Conventions
 ## Install VSCode
 [Visual Studio Code Download](https://code.visualstudio.com/download)
 
