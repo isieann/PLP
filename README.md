@@ -330,3 +330,22 @@ it is weakly typed). It is explicitly typed (though you can implicitly
 declare using auto), in C++ you need to declare what type of variable
 you are declaring and it will always stay as that variable type.
 
+# Selection, Loops and Conditionals
+## If/Else
+
+### One Condiiton
+```cpp
+int y = 2
+if(y = 2){
+    cout << "Two";
+}
+```
+### Multi Condition
+```cpp
+int y = 2
+if(y = 2){
+    cout << "Two";
+}
+```
+## Short Circuiting
+##Switch Cases
