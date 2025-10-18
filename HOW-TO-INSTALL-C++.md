@@ -1,7 +1,7 @@
 HOW TO INSTALL AND USE C++.
 
 ## Install VSCode
-https://code.visualstudio.com/download
+[Visual Studio Code Download](https://code.visualstudio.com/download)
 
 ## VSCode Extension for C/C++
 1. Open VSCode
@@ -9,12 +9,14 @@ https://code.visualstudio.com/download
 3. Click Install
 
 ## Installing MinGW
-You want to start by downloading the latest version from here https://www.msys2.org 
+You want to start by downloading the latest version from [Here](https://www.msys2.org) 
 and running/installing it.
 
 When it opens follow the prompts till you get to a terminal and you will run the following:
 
+```bash
 pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
+```
 
 Next you need to add the path so that it can run gcc, g++ and gdb:
 
