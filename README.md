@@ -343,6 +343,7 @@ else{
     cout << "Not Two";
 ```
 ### Multi Condition
+C++ uses `&&` and `or` for AND and OR respectivly for boolean statments. C++ also uses `>` `<` `==` `!=`.
 ```cpp
 int y = 5
 bool size;
@@ -354,5 +355,32 @@ else{
 }
 ```
 ### Else if
+```cpp
+int y = 5
+bool size;
+if(y = 2){
+    cout << "Two";
+}
+else if(y > 2 && y < 8){
+    size = true;
+}
+else{
+    size = false;
+    cout << "Not Two";
+}
+```
 ### Short Circuiting
+Consider the following example:
+```cpp
+int y = 0
+bool size;
+if(y != 0 && 2//y == 15;){
+    size = true;
+}
+else{
+    size = false;
+}
+```
+If C++ didn't short circuit then the above code would cause an error, `y = 0` but in the `if` statement when it is being checked for the second condition it would try to divide something by zero (which isn't possible). Luckily C++ does short circuit! This means that if there is an `&&` condition and there is a value found false anywhere it is, it assumes it false and goes on with the code, this helps greatly with the situations above!
+
 ##Switch Cases
