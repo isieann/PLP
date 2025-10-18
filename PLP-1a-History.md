@@ -1,4 +1,4 @@
-Brief History about C++.
+# Brief History about C++.
 
 C++ is a programming language derived from C and was offically it's own language in 1979, though it was under a 
 different name. Originally it was just called "C with classes", then later given the name C++ in 1983. The original 
