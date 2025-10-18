@@ -333,7 +333,7 @@ you are declaring and it will always stay as that variable type.
 # Selection, Loops and Conditionals
 ## If/Else
 
-### One Condiiton
+### One Condition
 ```cpp
 int y = 2
 if(y = 2){
