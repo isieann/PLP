@@ -383,7 +383,7 @@ else{
 ```
 If C++ didn't short circuit then the above code would cause an error, `y = 0` but in the `if` statement when it is being checked for the second condition it would try to divide something by zero (which isn't possible). Luckily C++ does short circuit! This means that if there is an `&&` condition and there is a value found false anywhere it is, it assumes it false and goes on with the code, this helps greatly with the situations above!
 
-##Switch Cases
+## Switch Cases
 Formatting for switch cases is interesting, there are `:` used as well as a manditory `break` after each case. The `default` is not needed but will act as the default if the case can't be met.
 ```cpp
 switch(numbers){
