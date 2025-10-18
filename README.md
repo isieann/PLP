@@ -1,7 +1,9 @@
 # PLP
 This is a Project for my Programming Languages class. It's purpose is to act as a tutorial for C++.
 
-# HOW TO INSTALL AND USE C++.
+[Getting Started](#getting-started)<br>[History](#history)
+
+# GETTING STARTED
 
 ## Install VSCode
 [Visual Studio Code Download](https://code.visualstudio.com/download)
@@ -35,3 +37,18 @@ THAT CASE DOUBLE CHECK BY FINDING WHERE THE gcc.exe FILE IS ON YOUR COMPUTER)
 
 Doing this will give your computer access to the toolchain in MinGW and will
 allow for debugging and C++ things you need for everything to run well :3
+
+# History
+
+C++ is a programming language derived from C and was offically it's own language in 1979, though it was under a 
+different name. Originally it was just called "C with classes", then later given the name C++ in 1983. The original 
+name helps to describe the problem that C++ was trying to fix, the absense of classes in C. Bjarne Stroustrup is the
+man who gave rise to C++. First he made his own programming language called Simula while he was working on his PhD.
+He then tried to integrate some of the parts of Simula into C, giving C classes. He was hoping that C would adopt his
+changes but C++ ended up just becoming it's own programming langage.
+
+C++ is a very fast language, it's execution speed makes it widly used for things like Operating Systems, Games and
+embedded systems (cars, planes, medical equitment, etc.).
+
+I am specifically interested in C++'s application in game development. It is the primary programming language used
+in Unreal engine which is one of the leading softwares for 3D game development.
