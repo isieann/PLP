@@ -17,9 +17,12 @@ This is a Project for my Programming Languages class. It's purpose is to act as 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Booleans](#booleans)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Arrays](#arrays)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Maps](#maps)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Constant/Auto](#constant-and-auto)</sup>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Constant/Auto](#constant-and-auto)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Reserved Words](#reserved-words)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Name Requirements/Conventions](#name-requirements-and-conventions)</sup>
 # Getting Started
 
+Name Requirements and Conventions
 ## Install VSCode
 [Visual Studio Code Download](https://code.visualstudio.com/download)
 
@@ -284,4 +287,42 @@ const string foreverString = "Never Changing!!";
 ```cpp
 auto a = 7;
 ```
+
+## Reserved Words
+
+C++ has an extensive list of key/reserved words
+A reserved word is a word that you can not use as a variable name or else it will
+mess with the use that is already associtated with the word in a given language.
+
+Some more common reserved words in C++ include
+`if`, `else`, `return`, `include`, `string`, `bool`, `int`, `float` etc.
+
+For a full list of reserved words see [Here](https://en.cppreference.com/w/cpp/keyword.html)
+
+
+## Name Requirements and Conventions
+### Classes
+* Pascal Case (PascalCaseIsLikeThis) <- classes must start with an upper case letter
+* class name should be a noun
+* "_"s aren't allowed in class naming
+
+### Functions/Methods
+* Camel Case (camelCaseIsLikeThis) <- functions/methods must start with a lower case letter
+* For methods specifically Snake Case can also be used (snake_case_is_like_this)
+
+### Variables
+* The first character should be a letter (numbers are allowed but only after at least one letter)
+* No keywords
+* "_" is the only allowed special character
+
+For more in depth see [Here](https://www.geeksforgeeks.org/cpp/naming-convention-in-c)
+
+## More Useful Info
+
+C++ is a statically typed language which means that type checking
+happens when the program is compiled instead of at run time. It is
+also a strongly typed language (even though some people think that
+it is weakly typed). It is explicitly typed (though you can implicitly
+declare using auto), in C++ you need to declare what type of variable
+you are declaring and it will always stay as that variable type.
 
