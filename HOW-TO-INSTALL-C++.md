@@ -1,14 +1,14 @@
 HOW TO INSTALL AND USE C++.
 
-=== Install VSCode ===
+## Install VSCode
 https://code.visualstudio.com/download
 
-=== VSCode Extension for C/C++ ===
+## VSCode Extension for C/C++
 1. Open VSCode
 2. Go to "Extentions" and search C/C++ (it will be the one titled C/C++ from Microsoft)
 3. Click Install
 
-=== Installing MinGW ===
+## Installing MinGW
 You want to start by downloading the latest version from here https://www.msys2.org 
 and running/installing it.
 
