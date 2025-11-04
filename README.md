@@ -77,7 +77,7 @@ in Unreal engine which is one of the leading softwares for 3D game development.
 
 # Hello World!
 [W3Schools](https://www.w3schools.com/cpp)<br>
-[Learn C++](https://www.learncpp.com/)
+[Learn C++](https://www.learncpp.com/)<br>
 
 Before we get into our first program, here are some useful things about C++ before we get started.
 
@@ -201,8 +201,8 @@ int main() {
         }
 ```
 # Declaring Variables
-[GeeksForGeeks](https://www.geeksforgeeks.org/cpp/how-to-create-a-dictionary-in-cpp)
-[W3Schools](https://www.w3schools.com/cpp/cpp_variables.asp)
+[GeeksForGeeks](https://www.geeksforgeeks.org/cpp/how-to-create-a-dictionary-in-cpp)<br>
+[W3Schools](https://www.w3schools.com/cpp/cpp_variables.asp)<br>
 C++ is an explicit language, this means that you have to declar your variables as a type, and further (like in Java, C#, etc.) those variables will stay like that forever.
 ## Numbers
 ```cpp
@@ -402,6 +402,7 @@ switch(numbers){
 }
 ```
 # Functions
+[W3Schools](https://www.w3schools.com/cpp/cpp_functions.asp)<br/>
 ## Declaring a Function
 ```cpp
 int functionName(int p1, string p2){...}
