@@ -499,5 +499,6 @@ When sending in parameters you can send multiple so long as they are all declare
 ```cpp
 int main(int var1, string var2, bool var3, double var4){...}
 ```
-
+### Local Varibales
+In C++ any varibles that are declared within a function are not accessable outside of the function unless they are returned. This is something to keep in mind while you are writing your programs.
 
