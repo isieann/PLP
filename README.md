@@ -401,3 +401,46 @@ switch(numbers){
         break;
 }
 ```
+# Functions
+## Declaring a Function
+```cpp
+int functionName(int p1, String p2){...}
+```
+When you declare a function have three main things to consider:
+1. What the function returns `int`
+2. The name of the function `functionName`
+3. It's parameters `int p1, String p2`
+### Returning
+#### Void
+A function in C++ doesn't have to return something, but similar to Java or C, if it's returning nothing then you have to have `void`. When your function is void it is actually called a process not a function. Here is an example of a void function:
+```cpp
+void funct(int x){
+    cout << x;
+}
+```
+This function prints whatever `int` you sent in and then returns nothing. 
+>[!NOTE]
+>You should NOT have a return() statement when the fucntion is void!
+
+#### Return Value
+Same as you have to decalre variables with their type, you must also decalre functions that return values with what type of value it will be. If I want my function to return an `int`, it can only ever return an `int`, same with `strings`, `bools` and so on. Here is an example of a return fucntion:
+```cpp
+bool funct(String word){
+    if(word == "Yes"){
+        return(true);
+    }
+}
+```
+This function returns `true` if the String passed into the function is `"Yes"`, because of this we have to decalre the function with `bool` in the return type position as shown above.
+>[!NOTE]
+>If your function is NOT void, you MUST have a return() statement!
+
+### Function Name
+Function names in C++ often are in camalCase which is where you start the first word with lower case and then the next word in the functionWillBeUppercasedAndSoOnLikeThis...
+Function names, similar to varible names can't start with numbers or contain any special characters besides underscores, though again, it is common practice to use camal case.
+>[!NOTE]
+>Make sure your function names are descriptive!
+
+### Parameters
+
+
