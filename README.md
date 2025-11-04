@@ -30,7 +30,7 @@ This is a Project for my Programming Languages class. It's purpose is to act as 
 [Functions](#functions)<br>
 <sup>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Returning](#returning)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Naming Functions](#function-names)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Naming Functions](#function-name)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Parameters](#parameters)<br>
 </sup>
 # Getting Started
