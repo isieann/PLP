@@ -404,12 +404,12 @@ switch(numbers){
 # Functions
 ## Declaring a Function
 ```cpp
-int functionName(int p1, String p2){...}
+int functionName(int p1, string p2){...}
 ```
 When you declare a function have three main things to consider:
 1. What the function returns `int`
 2. The name of the function `functionName`
-3. It's parameters `int p1, String p2`
+3. It's parameters `int p1, string p2`
 ### Returning
 #### Void
 A function in C++ doesn't have to return something, but similar to Java or C, if it's returning nothing then you have to have `void`. When your function is void it is actually called a process not a function. Here is an example of a void function:
@@ -423,9 +423,9 @@ This function prints whatever `int` you sent in and then returns nothing.
 >You should NOT have a return() statement when the fucntion is void!
 
 #### Return Value
-Same as you have to decalre variables with their type, you must also decalre functions that return values with what type of value it will be. If I want my function to return an `int`, it can only ever return an `int`, same with `strings`, `bools` and so on. Here is an example of a return fucntion:
+Same as you have to decalre variables with their type, you must also decalre functions that return values with what type of value it will be. If I want my function to return an `int`, it can only ever return an `int`, same with `string`, `bool` and so on. Here is an example of a return fucntion:
 ```cpp
-bool funct(String word){
+bool funct(string word){
     if(word == "Yes"){
         return(true);
     }
@@ -434,6 +434,51 @@ bool funct(String word){
 This function returns `true` if the String passed into the function is `"Yes"`, because of this we have to decalre the function with `bool` in the return type position as shown above.
 >[!NOTE]
 >If your function is NOT void, you MUST have a return() statement!
+In Python you return muliple values as follows:
+```python
+def main()
+    var1, var2 = funct(x)
+
+def funct(x)
+    y = x+1
+    z = x-1
+    return y, z
+```
+In this example `var1` would be `y` and `var2` would be `z` and that is how you would return multiple varibales. In C++ there are multiple ways to do it but the most common would be [struct](https://www.w3schools.com/cpp/cpp_structs.asp). This data type allows for storing multiple varibles, also known as members. You would then retrieve the different members of the structure like you would an attribute in a class.
+```cpp
+struct {
+    string word;
+    int num;
+    bool trueOrFalse;
+} structureName;
+```
+This is how you initalize a structure, you can put any number of members and they can be of virtually any data type so there is a lot of flexibility. You start declaring with `struct` followed by curly brackets `{}`, within those you declare your members and then after the second brace you put the name of the structure. You can assign and call the members of the structure as follows:
+```cpp
+structureName.word = "Hello World!";
+structureName.trueOrFalse = true;
+
+if(structureName.trueOrFalse){
+    cout << structureName.word << "\n";
+}
+```
+In this example what would pring out would be `Hello World!` because we assigned `trueOrFalse` to be `true` and `word` to be `"Hello World!"`. When you are declaring a fucntion you can set the return type to `struct` as follows:
+```cpp
+struct funct(int x, bool y){
+    struct {
+        int myNum;
+        bool myBool;
+    } myStruct;
+    myStruct.myNum = x+7;
+    myStruct.myBool = y;
+    return(myStruct);
+}
+
+int main(){
+    struct s = funct(8,true);
+    cout << s.myNum << "\n";
+}
+```
+This would print out 15.
 
 ### Function Name
 Function names in C++ often are in camalCase which is where you start the first word with lower case and then the next word in the functionWillBeUppercasedAndSoOnLikeThis...
@@ -442,5 +487,9 @@ Function names, similar to varible names can't start with numbers or contain any
 >Make sure your function names are descriptive!
 
 ### Parameters
+When sending in parameters you can send multiple so long as they are all declared properly, you want to declare them the same way you would if you were declaring a varible. You also want to, as in most all other programming languages, seperate the parameters by commas.
+```cpp
+int main(int var1, string var2, bool var3, double var4){...}
+```
 
 
