@@ -26,6 +26,13 @@ This is a Project for my Programming Languages class. It's purpose is to act as 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[If/Else](#if-else-statements)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Switch Cases](#switch-cases)<br>
 </sup>
+
+[Functions](#functions)<br>
+<sup>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Returning](#returning)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Naming Functions](#function-names)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Parameters](#parameters)<br>
+</sup>
 # Getting Started
 ## Install VSCode
 [Visual Studio Code Download](https://code.visualstudio.com/download)
